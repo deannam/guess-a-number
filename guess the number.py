@@ -9,7 +9,7 @@ secretNumber = random.randint(1,100)
 
 print(name + ', I am thinking of a number between 1 and 100. Try to guess it in six guesses.')
 
-for guessesTaken in range(1,10):
+for guessesTaken in range(1,7):
     print('Take a guess.')
     guess = int(input())
     if guess < secretNumber:
